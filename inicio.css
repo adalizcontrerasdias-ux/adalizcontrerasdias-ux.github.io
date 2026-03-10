@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-image: url("poli.webp");
+    background-size: cover;        /* Ajusta la imagen bien */
+    background-position: center;   /* La centra */
+    background-repeat: no-repeat;  /* No la repite */
+    background-attachment: fixed;  /* Se queda fija */
+}
+
+
+
+header{
+    text-align:center;
+    padding:30px;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
+    background:white;
+}
+
+nav button{
+    padding:10px 18px;
+    border:none;
+    background:#1e3c72;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+nav button:hover{
+    background:#2a5298;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    padding:40px;
+}
+
+.seccion{
+    display:none;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:80%;
+    max-width:800px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.seccion.activa{
+    display:block;
+}
+
